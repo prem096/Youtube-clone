@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      <title>
+        Nested -Layout-technique
+      </title>
+      <style>
+        p{
+          font-family:Arial;
+          margin-top:0;
+          margin-bottom:0px;
+          
+        }
+       .profile{
+        box-shadow:0 1px 3px rgba(0,0,0,0.5);
+       }
+       .picture{
+        width:200px;
+        height:200px;
+        object-fit:cover;
+        margin-bottom: 10px;
+       }
+       .cat-name{
+         font-size:15px;
+         font-weight:bold;
+         margin-left:7px;
+         margin-bottom: 6px;
+       }
+       .friends{
+        color:gray;
+        font-size:14px;
+        vertical-align:middle;
+        margin-left:5px;
+       }
+       .button{
+        background-color: rgb(24, 119, 242);
+        color: white;
+        border: none;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 4px;
+        font-size: 15px;
+        margin-left: 8px;
+        margin-bottom: 10px;
+
+       }
+       .thumbnail-pic{
+         width:30px;
+         height:30px;
+         object-fit:cover;
+         border-radius:15px;
+         vertical-align:middle;
+         margin-left:7px;
+       }
+       .thumb{
+        margin-bottom:10px;
+        display:grid;
+        grid-template-columns: 30px 1fr;
+        align-items:center;
+        column-gap:10px;
+       }
+       .grid-all{
+        display:grid;
+        grid-template-columns: 200px 200px 200px;
+        column-gap:20px
+       }
+      </style>
+    </title>
+  </head>
+  <body>
+  <div class="grid-all"> 
+    <div class="profile">
+      <div>
+          <img class="picture" src="../thumbnails/download.jpeg">
+      </div>
+      <div>
+        <p class="cat-name">
+          Oliver
+        </p>
+        <div class="thumb">
+          <img class="thumbnail-pic" src="../thumbnails/thumbnail-1.webp">
+         <p class="friends">
+          2 mutual friends
+         </p>
+        </div>
+        <button class="button">
+          Follow
+        </button>
+        
+      </div>
+    </div>
+
+    <div class="profile">
+      <div>
+          <img class="picture" src="../thumbnails/download.jpeg">
+      </div>
+      <div>
+        <p class="cat-name">
+          Oliver
+        </p>
+        <div class="thumb">
+          <img class="thumbnail-pic" src="../thumbnails/thumbnail-1.webp">
+         <p class="friends">
+          2 mutual friends
+         </p>
+        </div>
+        <button class="button">
+          Follow
+        </button>
+        
+      </div>
+    </div>
+
+    <div class="profile">
+      <div>
+          <img class="picture" src="../thumbnails/download.jpeg">
+      </div>
+      <div>
+        <p class="cat-name">
+          Oliver
+        </p>
+        <div class="thumb">
+          <img class="thumbnail-pic" src="../thumbnails/thumbnail-1.webp">
+         <p class="friends">
+          2 mutual friends
+         </p>
+        </div>
+        <button class="button">
+          Follow
+        </button>
+        
+      </div>
+    </div>
+  </div>  
+  </body>
+</html>

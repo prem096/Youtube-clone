@@ -1,0 +1,21 @@
+.Box{
+   font-family:Arial;
+   border-style:solid;
+   padding-left:15px;
+   padding-bottom:20px;
+   width:380px;
+   background-color:rgb(26, 23, 23);
+}
+.heading{
+  font-size:25px;
+  font-weight:bold;
+  margin-top:15px;
+  color:white;
+  margin-bottom:5px;
+
+}
+.subheading{
+  width:360px;
+  margin-bottom:0px;
+  color:gray;
+}

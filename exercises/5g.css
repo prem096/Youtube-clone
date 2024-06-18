@@ -1,0 +1,26 @@
+p{
+  font-family:Arial;
+  margin-top:0;
+  margin-bottom:0;
+
+}
+.start{
+  font-weight:bold;
+  font-size:18px;
+  margin-bottom:8px;
+}
+.h{
+  color:rgba(128, 128, 128, 0.858);
+  font-weight:lighter;
+  font-size:17px;
+}
+.p{
+  width:500px;
+  line-height:21px;
+}
+.last{
+  margin-top:20px;
+}
+.span{
+  color:rgb(26, 177, 228);
+}

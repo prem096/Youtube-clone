@@ -1,0 +1,17 @@
+p{
+  font-family:Montserrat;
+  text-align:center;
+  margin-top:0;
+  margin-bottom:0;
+}
+.one{
+  font-weight:bold;
+  font-size:45px;
+  margin-bottom:10px;
+}
+.two{
+  font-size:23px;
+}
+.span{
+  text-decoration:underline;
+}

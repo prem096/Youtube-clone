@@ -1,0 +1,26 @@
+.Search-bar{
+  font-size:20px;
+  display:block;
+}
+.header{
+  height:70px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  margin-top:8px;
+}
+.left-section{
+  width:170px;
+  background-color:aqua;
+  margin-right:250px;
+}
+.middle-section{
+  background-color:gray;
+  flex:1;
+  max-width:500px;
+}
+.right-section{
+  width:210px;
+  background-color: blueviolet;
+  margin-left:250px;
+}

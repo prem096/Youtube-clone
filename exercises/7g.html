@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <style>
+    .box{
+      padding-left:10px;
+      padding-top:10px;
+      padding-bottom:10px;
+      width:460px;
+      border-radius:5px;
+      box-shadow:1px 1px 5px rgba(0,0,0,0.5);
+    }
+    .resize{
+       width:50px;
+       height:50px;
+       object-fit: cover;
+       border-radius:25px;
+       vertical-align: middle;
+       margin-right:5px;
+    }
+    .text{
+      width:300px;
+      border:None;
+      font-family:Arial;
+      font-size:17px;
+      vertical-align:middle;
+    }
+    .button{
+      color:white;
+      background-color: rgb(44, 128, 246);
+      border:None;
+      padding:7px 14px; 
+      border-radius:20px;
+      font-weight:bold;
+      vertical-align:middle;
+    }
+   
+   </style>
+  </head>
+  <body>
+    <div class="box">
+      <img class="resize" src="../thumbnails/thumbnail-1.webp">
+    <input class="text" type="text" placeholder="What's happening ?">
+    <button class="button">Tweet</button>
+    </div>
+  </body>
+</html>

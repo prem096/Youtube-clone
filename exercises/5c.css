@@ -1,0 +1,30 @@
+p{
+  font-family:verdana;
+}
+.course{
+  font-weight:bold;
+  font-size:18px;
+  margin-bottom:3px;
+}
+.btop{
+  margin-top:0px;
+  color:gray;
+  font-size:19px;
+  margin-bottom:20px;
+}
+.para{
+  width:280px;
+  font-size:16px;
+  margin-top:0;
+  
+}
+.button{
+    background-color:green;
+    color:white;
+    border:none;
+    padding-top:7px;
+    padding-bottom:7px;
+    padding-left:14px;
+    padding-right:14px;
+    border-radius:2px;
+}

@@ -1,0 +1,36 @@
+
+.thumbnail-picture{
+    width:100%;
+}
+.channel{
+  border-radius:30px;
+  width:30px;
+}
+.video-title{
+ width:280px;
+ margin-top:0;
+ font-size:14px;
+ font-weight:500;
+ line-height:20px;
+}
+.thumbnail-row{
+  margin-bottom:10px;
+}
+.video-name,.video-views{
+  font-size:11px;
+  color:rgb(96, 96, 96);
+}
+.video-name{
+  margin-top:9px;
+  margin-bottom:4px;
+}
+.vertical-2{
+   display:grid;
+   grid-template-columns:40px 1fr;
+}
+.grid-all{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  column-gap:15px;
+  row-gap:35px;
+}

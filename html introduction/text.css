@@ -1,0 +1,45 @@
+p{
+  font-family:Roboto;
+  margin-top:0px;
+
+}
+.head{
+  font-weight:bold;
+  font-size:19px;
+  width:300px;
+  line-height:25px;
+  margin-bottom:5px;
+}
+.view{
+  font-size:15px;
+  color:rgb(96,96, 96);
+  margin-bottom:18px;
+}
+.one{
+  color:rgb(96,96, 96);
+  font-size:15px;
+  margin-bottom:20px;
+}
+.two{
+  color:rgb(96,96, 96);
+  width:300px;
+  line-height:23px;
+  margin-bottom:130px;
+}
+.apple{
+  margin-bottom:50px;
+  font-weight:bold;
+  font-size:15px;
+  background-color:rgb(237, 32, 32);
+  padding:20px 100px;
+  text-align:center;
+  color:white;
+}
+.span{
+  cursor:pointer;
+  transition:text-decoration 0.15s;
+  margin-left:20px;
+}
+.span:hover{
+text-decoration:underline;
+}
